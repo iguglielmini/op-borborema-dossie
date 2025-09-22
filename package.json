@@ -1,0 +1,24 @@
+{
+  "name": "op-borborema-dossie",
+  "version": "1.0.0",
+  "main": "src/main.js",
+  "scripts": {
+    "start": "electron .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iguglielmini/op-borborema-dossie.git"
+  },
+  "keywords": [],
+  "author": "Igor Guglielmini",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/iguglielmini/op-borborema-dossie/issues"
+  },
+  "homepage": "https://github.com/iguglielmini/op-borborema-dossie#readme",
+  "description": "Simulador de hacker fake para evento de airsoft.",
+  "devDependencies": {
+    "electron": "^38.1.2"
+  }
+}
