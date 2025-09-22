@@ -4,7 +4,23 @@
   "main": "src/main.js",
   "scripts": {
     "start": "electron .",
+    "build": "electron-builder --win --x64",
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "build": {
+    "appId": "com.opborborema.dossie",
+    "productName": "OP Borborema Dossiê",
+    "directories": {
+      "output": "dist"
+    },
+    "files": [
+      "public/**/*",
+      "src/**/*",
+      "package.json"
+    ],
+    "win": {
+      "target": "nsis"
+    }
   },
   "repository": {
     "type": "git",
@@ -19,6 +35,7 @@
   "homepage": "https://github.com/iguglielmini/op-borborema-dossie#readme",
   "description": "Simulador de hacker fake para evento de airsoft.",
   "devDependencies": {
-    "electron": "^38.1.2"
+    "electron": "^38.1.2",
+    "electron-builder": "^26.0.12"
   }
 }

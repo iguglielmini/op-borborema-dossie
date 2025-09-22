@@ -6,7 +6,14 @@
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <div class="terminal">
+  <!-- Overlay de preinicialização -->
+  <div id="preinitOverlay" class="preinit-overlay">
+    <div class="preinit-box">
+      <span id="preinitText">Inicializando sistema</span><span id="preinitDots"></span>
+    </div>
+  </div>
+
+  <div class="terminal hidden" id="terminalBox">
     <pre id="terminalOutput">[ SISTEMA DE INTELIGÊNCIA - PMA ]
 
 Aguardando leitura do dispositivo...
@@ -32,6 +39,22 @@ Aguardando leitura do dispositivo...
   </div>
 </div>
 
+  <script>
+    // Animação de pontos piscando
+    const preinitDots = document.getElementById('preinitDots');
+    let dotCount = 0;
+    let preinitInterval = setInterval(() => {
+      dotCount = (dotCount + 1) % 4;
+      preinitDots.textContent = '.'.repeat(dotCount);
+    }, 400);
+
+    // Após 2.5s, some o overlay e mostra o terminal
+    setTimeout(() => {
+      clearInterval(preinitInterval);
+      document.getElementById('preinitOverlay').style.display = 'none';
+      document.getElementById('terminalBox').classList.remove('hidden');
+    }, 2500);
+  </script>
   <script src="../src/script.js"></script>
 </body>
 </html>

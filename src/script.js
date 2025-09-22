@@ -1,5 +1,5 @@
 // ======= Config editável =======
-const TOTAL_SIMULATION_TIME = 30; // segundos (ex.: 600 = 10 min)
+const TOTAL_SIMULATION_TIME = 600; // segundos (ex.: 600 = 10 min)
 const TOTAL_MS = TOTAL_SIMULATION_TIME * 1000;
 
 const PHASES = {

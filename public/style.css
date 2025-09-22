@@ -1,3 +1,23 @@
+/* Overlay de preinicialização */
+.preinit-overlay {
+  position: fixed;
+  top: 0; left: 0; width: 100vw; height: 100vh;
+  background: #000e;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 2000;
+}
+.preinit-box {
+  background: #111;
+  color: #33ff33;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 2em;
+  padding: 2em 3em;
+  border-radius: 12px;
+  box-shadow: 0 0 24px #0f08;
+  text-align: center;
+}
 :root {
   --green: #33ff33;
   --bg: #000;
