@@ -1,8 +1,8 @@
 version: 1.0.0
 files:
   - url: op-borborema-dossie-setup-1.0.0.exe
-    sha512: CafYkTJj/7w6v1b2kFr7uSu4VyBY9J4flUQWsXsZTwxrFsjQ40sbt0PxX/eeWUD1W4ceAHd3wqQE9PJZpsrTQg==
-    size: 88828010
+    sha512: r3L3ke6rz7r/5R7AN3/jDec0iMscz2wgHcZcRcofvN8eWDMZt84pB9blFydKBhAPWC3/tzvi9CFkmWzuXAg3TQ==
+    size: 92736415
 path: op-borborema-dossie-setup-1.0.0.exe
-sha512: CafYkTJj/7w6v1b2kFr7uSu4VyBY9J4flUQWsXsZTwxrFsjQ40sbt0PxX/eeWUD1W4ceAHd3wqQE9PJZpsrTQg==
-releaseDate: '2025-09-22T17:25:41.620Z'
+sha512: r3L3ke6rz7r/5R7AN3/jDec0iMscz2wgHcZcRcofvN8eWDMZt84pB9blFydKBhAPWC3/tzvi9CFkmWzuXAg3TQ==
+releaseDate: '2025-09-22T20:39:35.683Z'
